@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"bf 1.jpg">
+    <title>BreakFast</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            width:100%;
+            color: white;
+            background-color: rgb(140,81,39);
+            padding: 15px;
+            display: inline-block;
+        }
+        nav label{
+            float :left;
+            margin-left: 30px;
+            padding: 15px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        nav ul{
+            float :right;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 15px;
+            margin-right: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li:hover{
+            color:rgb(8, 239, 239);
+        }
+        .header1{
+            margin-block: 30px;
+            margin-inline:50px;
+            background-color:rgb(140,81,39);
+            padding-inline: 40px;
+            padding-block: 40px;
+            text-align: center;
+        }
+        .header{
+            margin-block: 30px;
+            margin-inline:50px;
+            background-color: aliceblue;
+            padding-inline: 40px;
+            padding-block: 40px;
+            text-align: center;
+        }
+        h2{
+            margin-top: 50px;
+            margin-left:50px;
+        }
+        .new{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: aliceblue;
+        }
+        .cards{
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: none;
+        }
+        .cards img{
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        .cards img:hover{
+            box-shadow: 0 0 10px rgb(140,81,39);
+        }
+        .cards p{
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label>
+            BreakFast Recipes
+        </label>
+        <ul>
+            <li><a href="recipe_book.html" target="_blank">Home</a></li>
+            <li><a href="breakfast.html" target="_blank">Breakfast</a></li>
+            <li><a href="lunch.html" target="_blank">Lunch</a></li>
+            <li><a href="desserts.html" target="_blank">Desserts</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <h1>Healty Breakfast Recipes</h1>
+    </div>
+    <div class="new">
+        <div class="cards">
+            <img  height="350px" width="350"  src="bf 1.jpg">
+            <p>Bread Omlette</p>
+        </div>
+        <div class="cards">
+            <img  height="350px" width="350" src="bf 1.jpg">
+            <p>Sandwich</p>
+        </div>
+        <div class="cards">
+            <img  height="350px" width="350" src="bf 1.jpg">
+            <p>half egg</p>
+        </div>
+        <div class="cards">
+            <img  height="350px" width="350"  src="bf 1.jpg">
+            <p>Bread Omlette</p>
+        </div>
+        <div class="cards">
+            <img  height="350px" width="350" src="bf 1.jpg">
+            <p>Sandwich</p>
+        </div>
+        <div class="cards">
+            <img  height="350px" width="350" src="bf 1.jpg">
+            <p>half egg</p>
+        </div>
+    </div>
+    <div class="header1">
+        <h1>Eat Healthy Stay Healthy</h1>
+        <p>&copy; By geyamrutha-poluru</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="recipe fav icon.jpeg">
+    <title>Recipe Book</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            width:100%;
+            color: white;
+            background-color: rgb(140,81,39);
+            padding: 15px;
+            display: inline-block;
+        }
+        nav label{
+            float :left;
+            margin-left: 30px;
+            padding: 15px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        nav ul{
+            float :right;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 15px;
+            margin-right: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li:hover{
+            color:rgb(8, 239, 239);
+        }
+        .header1{
+            margin-block: 30px;
+            margin-inline:50px;
+            background-color:rgb(140,81,39);
+            padding-inline: 40px;
+            padding-block: 40px;
+            text-align: center;
+        }
+        .header{
+            margin-block: 30px;
+            margin-inline:50px;
+            background-color: aliceblue;
+            padding-inline: 40px;
+            padding-block: 40px;
+            text-align: center;
+        }
+        h2{
+            margin-top: 50px;
+            margin-left:50px;
+        }
+        .new{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            background-color: aliceblue;
+        }
+        .card{
+            margin-inline: 2px;
+            display: flex;
+            flex-direction: column;
+            background-color: none;
+            border: 2px solid black;
+        }
+        .card:hover{
+            box-shadow: 0 0 10px rgb(140,81,39);
+        }
+        .card p{
+            text-align: center;
+            padding: 20px;
+        }
+        .cards{
+            margin-inline: 2px;
+            display: flex;
+            flex-direction: column;
+            background-color: none;
+        }
+        .cards img{
+            border-radius: 50%;
+            border: 2px solid black;
+        }
+        .cards img:hover{
+            box-shadow: 0 0 10px rgb(140,81,39);
+        }
+        .cards p{
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <label>
+            Recipe Book 
+        </label>
+        <ul>
+            <li><a href="recipe_book.html" target="_blank">Home</a></li>
+            <li><a href="breakfast.html" target="_blank">Breakfast</a></li>
+            <li><a href="lunch.html" target="_blank">Lunch</a></li>
+            <li><a href="desserts.html" target="_blank">Desserts</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <h1>Authentic Recipes For The Modern Kitchen</h1>
+    </div>
+    <h2>New Recipes</h2>
+    <div class="new">
+        <div class="card">
+            <img  height="300px" width="300"  src="roasted chicken.jpg">
+            <p>Roasted Chicken</p>
+        </div>
+        <div class="card">
+            <img  height="300px" width="300"  src="main 2nd.jpg">
+            <p>Italian Sausage</p>
+        </div>
+        <div class="card">
+            <img  height="300px" width="300"  src="desserts 1.jpeg">
+            <p>Cake</p>
+        </div>
+    </div>
+    <div class="header">
+        <h1>Get your Tummy full</h1>
+    </div>
+    <h2>Know More about</h2>
+    <div class="new">
+        <div class="cards">
+            <img  height="200px" width="200"  src="bf 1.jpg">
+            <p>Breakfast</p>
+        </div>
+        <div class="cards">
+            <img  height="200px" width="200"  src="lunch 1.jpeg">
+            <p>Lunch</p>
+        </div>
+        <div class="cards">
+            <img  height="200px" width="200"  src="snacks 1.jpeg">
+            <p>Snacks</p>
+        </div>
+        <div class="cards">
+            <img  height="200px" width="200"  src="desserts 1.jpeg">
+            <p>Desserts</p>
+        </div>
+    </div>
+    <div class="header1">
+        <h1>Eat Healthy Stay Healthy</h1>
+        <p>&copy; By geyamrutha-poluru</p>
+    </div>
+</body>
+</html>
